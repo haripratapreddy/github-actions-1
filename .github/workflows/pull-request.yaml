@@ -3,7 +3,7 @@ name: Build and Push Docker backend to GHCR
 on:
   pull_request:
     branches:
-      - cicd/dev
+      - mai*
 
 jobs:
   build-and-push:
